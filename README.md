@@ -2,7 +2,7 @@
 cmpe_131_project_fall'2023
 
 # Budget Tracker
-- Name (@username)
+- Alan Nguyen (@nguyenalan422)
 - Biruk Terefe (@bterefe10)
 - Divak Maheshwari (@divakk14)
 - Mauro Gonzalez (@mauroandresgb)
