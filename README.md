@@ -5,4 +5,4 @@ cmpe_131_project_fall'2023
 - Name (@username)
 - Biruk Terefe (@bterefe10)
 - Divak Maheshwari (@divakk14)
-- Name (@username)
+- Mauro Gonzalez (@mauroandresgb)
