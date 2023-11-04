@@ -1,11 +1,11 @@
 ## <remove all of the example text and notes in < > such as this one>
 
 ## Functional Requirements
-1. requirement <should be 1 sentence that describes requirement>
-2. requirement
-3. requirement
-4. requirement
-5. requirement
+1. User registration
+2. User logs in
+3. Create note
+4. Edit note
+5. Delete note
 6. requirement
 7. requirement
 8. requirement
