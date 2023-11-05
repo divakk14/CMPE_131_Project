@@ -1,26 +1,24 @@
-## <remove all of the example text and notes in < > such as this one>
-
 ## Functional Requirements
-1. User registration
-2. User logs in
-3. Create note
-4. Edit note
-5. Delete note
-6. requirement
-7. requirement
-8. requirement
-9. requirement
-10. requirement
-11. requirement
-12. requirement
-13. requirement
-14. requirement
-
-<using the syntax [](images/ui1.png) add images in a folder called images/ and place sketches of your webpages>
+1. Registration 
+2. Authentication
+3. Login 
+4. Password reset  
+5. Note Creation 
+6. Manage notes 
+7. Search notes 
+8. Note categorization 
+9. User profile editing 
+10. Integration with external API 
+11. Notes modification version control 
+12. The user is able to comment for additional information.
+13. The user's flexibility with the mode of the note
+14. Recovery of deleted notes
+15. Visualizing note connections
 
 ## Non-functional Requirements
-1. non-functional
-2. non-functional
+1. Chrome compatibility
+2. Multi-language support
+
 
 <each of the 14 requirements will have a use case associated with it>
 ## Use Cases <Add name of who will write (this specific requirement) and implement (in subsequent milestones) the use case below>
