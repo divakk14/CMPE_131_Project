@@ -157,11 +157,16 @@ Alternative sequence:
 4 a) User doesn’t click the home button and the user ends up staying on the opened notes. 
 
 ## Comment on Notes (Mauro)
-  **Pre-condition:**
-  **Trigger:**
-  **Primary Sequence:**
-  **Primary Postconditions:**
-  **Alternate Sequence:**
+**Pre-condition:** The user has already created a note
+**Trigger:** User clicks “done” after typing in the comment section
+**Primary Sequence:** 
+  1. The user navigates to the specific section or feature for comments or additional information.
+  2. The system displays the content or subject for which the user wishes to comment or provide additional information.
+  3. The user selects the option or interface to create a new comment or provide supplementary details.
+  4. The user clicks the "Done" button to submit the comment.
+  5. The system processes and saves the user's comments or additional information.
+**Primary Postconditions:** The user's comment is successfully added and displayed within the respective section or associated content
+**Alternate Sequence:** Deleting Comment: Users might have the option to delete their own comments, removing them from public view
 
 ## User Profile Editing (Mauro)
   **Pre-condition:** 
