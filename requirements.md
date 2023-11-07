@@ -50,36 +50,35 @@ User begins account registration.
 
 
 
-## Login
-**Pre-condition:** The user has created an account and has access to the internet
-**Trigger:** User clicks “login” button
-**Primary Sequence:** 
+## Login (Mauro)
+  **Pre-condition:** The user has created an account and has access to the internet
+  **Trigger:** User clicks “login” button
+  **Primary Sequence:** 
   1. User access login page
   2. The user inputs their email, password, and security question
   3. The system verifies the provided credentials against the stored user data
   4. Successfully logged in (pop-up).  
   5. Redirect to the home (main) page
+  **Primary Postconditions:** The user can access the notes list
+  **Alternate Sequence:** The user has input invalid credentials
 
-**Primary Postconditions:** The user can access the notes list
-**Alternate Sequence:** The user has input invalid credentials
+## Manage Notes (Mauro)
+  **Pre-condition:** The user has created notes in the application
+  **Trigger:** User clicks “done” when finishing modification
+  **Primary Sequence:**
+  **Primary Postconditions:**
+  **Alternate Sequence:**
 
-## Manage Notes
-**Pre-condition:** The user has created notes in the application
-**Trigger:** User clicks “done” when finishing modification
-**Primary Sequence:**
-**Primary Postconditions:**
-**Alternate Sequence:**
+## Comment on Notes (Mauro)
+  **Pre-condition:**
+  **Trigger:**
+  **Primary Sequence:**
+  **Primary Postconditions:**
+  **Alternate Sequence:**
 
-## Comment on Notes
-**Pre-condition:**
-**Trigger:**
-**Primary Sequence:**
-**Primary Postconditions:**
-**Alternate Sequence:**
-
-## User Profile Editing
-**Pre-condition:** 
-**Trigger:**
-**Primary Sequence:**
-**Primary Postconditions:**
-**Alternate Sequence:**
+## User Profile Editing (Mauro)
+  **Pre-condition:** 
+  **Trigger:**
+  **Primary Sequence:**
+  **Primary Postconditions:**
+  **Alternate Sequence:**
