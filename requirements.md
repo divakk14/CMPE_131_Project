@@ -179,6 +179,18 @@ User selects the view to have their list by grid or by list.
 Postcondition: The user can see the preference they chose.
 Alternate sequence: The user will have the default website version.
 
+## Recovery of deleted notes (Divak)
+Pre-condition: user has already deleted the notes which are stored in the deleted folder.
+Trigger: user will open the trash folder where the deleted note will be stored so the user will have two options either to delete it permanently or recover it. 
+Primary sequences:
+User will open the trash folder.
+Users will select the note they want to recover. 
+Users will click the recover option once they select the note they want to recover from the trash folder. 
+Then the user will go back to the list of existing notes where they will see the deleted note successfully recovered from the trash folder. 
+Primary postcondition: user can see their deleted notes in the default notes list.
+Alternate sequence: user loses once they delete the note.
+
+
 ## User Profile Editing (Mauro)
   **Pre-condition:** 
   **Trigger:**
