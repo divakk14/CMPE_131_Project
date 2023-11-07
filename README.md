@@ -1,5 +1,5 @@
 ## Notes Web Application
 - Divak Maheshwari (@divakk14) Leader
-- Alan Nguyen (@nguyenalan422) Scribe
-- Biruk Terefe (@bterefe10)
+- Biruk Terefe (@bterefe10) Scribe
+- Alan Nguyen (@nguyenalan422)
 - Mauro Gonzalez (@mauroandresgb)
