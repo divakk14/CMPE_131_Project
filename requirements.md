@@ -16,34 +16,37 @@
 
 ## Non-functional Requirements
 1. 
-2. Multi-language support
 
+## Login
+**Pre-condition:** The user has created an account and has access to the internet
+**Trigger:** User clicks “login” button
+**Primary Sequence:** 
+  1. User access login page
+  2. The user inputs their email, password, and security question
+  3. The system verifies the provided credentials against the stored user data
+  4. Successfully logged in (pop-up).  
+  5. Redirect to the home (main) page
 
-<each of the 14 requirements will have a use case associated with it>
-## Use Cases <Add name of who will write (this specific requirement) and implement (in subsequent milestones) the use case below>
-1. Use Case Name (Should match functional requirement name)
-- **Pre-condition:** <can be a list or short description>
-- **Trigger:** <can be a list or short description>
-- **Primary Sequence:**
-1. Ut enim ad minim veniam, quis nostrum e
-2. Et sequi incidunt
-3. Quis aute iure reprehenderit
-4. ...
-5. ...
-6. ...
-7. ...
-8. ...
-9. ...
-10. <Try to stick to a max of 12 steps>
-- **Primary Postconditions:** <can be a list or short description>
-- **Alternate Sequence:** <you can have more than one alternate sequence to
-describe multiple issues that may arise and their outcomes>
-1. Ut enim ad minim veniam, quis nostrum e
-2. Ut enim ad minim veniam, quis nostrum e
-3. ...
-- **Alternate Sequence <optional>:** <you can have more than one alternate sequence to describe multiple issues that may arise>
+**Primary Postconditions:** The user can access the notes list
+**Alternate Sequence:** The user has input invalid credentials
 
-1. Ut enim ad minim veniam, quis nostrum e
-2. Ut enim ad minim veniam, quis nostrum e
-3. ...
+## Manage Notes
+**Pre-condition:** The user has created notes in the application
+**Trigger:** User clicks “done” when finishing modification
+**Primary Sequence:**
+**Primary Postconditions:**
+**Alternate Sequence:**
 
+## Comment on Notes
+**Pre-condition:**
+**Trigger:**
+**Primary Sequence:**
+**Primary Postconditions:**
+**Alternate Sequence:**
+
+## User Profile Editing
+**Pre-condition:** 
+**Trigger:**
+**Primary Sequence:**
+**Primary Postconditions:**
+**Alternate Sequence:**
