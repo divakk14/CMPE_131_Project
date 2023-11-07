@@ -130,6 +130,19 @@ User continues with the note which is related to their search.
 Alternative sequence: 
 User is no longer interested in searching.
 
+##Note Organization: Visualize note connections (Biruk)
+Pre-condition: The user is logged into the notes website and is on the home page.
+Trigger: User clicks the “select” button.   
+Primary sequence: 
+User will click the “select” button to move notes into a folder 
+The system will prompt user to select at least one note from the preexisting list of saved notes 
+User selects the notes they want to move and clicks “next”
+The system will prompt user to select a folder from the preexisting list of folders or create a new folder 
+If user selects new folder the system will prompt them to name the folder before continuing 
+User will click “done” 
+The system will save notes to a specified folder
+Primary postconditions: The selected notes are successfully moved into the chosen folder.   
+Alternate sequence: The user opts to “cancel” the organization process before reaching step 7
 
 
 ## Comment on Notes (Mauro)
