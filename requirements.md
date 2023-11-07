@@ -13,10 +13,9 @@
 12. Recovery of deleted notes
 13. Sorting Notes
 
-
-## Non-functional Requirements
-1. 
-
+## Non-functional requirements: 
+1. When the particular note is opened there should be a label or tag of the folder if the note belongs to any of the folders.
+2. The title of the notes should be bold.  
 
 ## Registration (Divak):
 ** Pre-condition: ** user doesn’t have any prior account on this website
