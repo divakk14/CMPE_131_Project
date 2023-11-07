@@ -17,6 +17,18 @@
 ## Non-functional Requirements
 1. 
 
+
+## Registration (Divak):
+** Pre-condition: ** user doesn’t have any prior account on this website
+** Trigger: ** User selects the “Sign up” button.
+** Primary sequences:  **
+Users access the registration page after clicking the register button
+Users enter their first and last name, email address, password(alphanumeric), authentication questions
+Account set up confirmation is received on the entered email address
+** Primary Postcondition: ** Account is successfully created in the system
+** Alternate Sequence: ** 
+Cancel account creation
+
 ## Login
 **Pre-condition:** The user has created an account and has access to the internet
 **Trigger:** User clicks “login” button
