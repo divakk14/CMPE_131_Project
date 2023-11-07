@@ -62,6 +62,30 @@ User begins account registration.
   **Primary Postconditions:** The user can access the notes list
   **Alternate Sequence:** The user has input invalid credentials
 
+## Password Reset (Biruk)
+** Pre-condition: **The user is registered with the system but is unable to access their account due to incorrect password assuming the user has entered the right email address and security questions.
+** Trigger: ** User clicks “forgot password” button to initiate password reset. 
+** Primary sequence: ** 
+1. User navigates to the login page
+2. The user inputs their email, password, and security question
+3. The system notifies user that they have entered an incorrect password 
+4. User clicks on the “forgot password” button
+5. The system opens a form that prompts the user to enter their registered email address
+6. User enters their email address and clicks submit 
+7. The system generates a password reset link and sends it to the users email 
+8. User receives the email and clicks on the password reset link
+9. User sets a new password 
+10. The system updates the password in the database 
+11. User receives a password reset confirmation email.
+** Primary postconditions: ** The user has successfully reset their password and can now login with the new password. 
+** Alternate sequence: **
+4. User enters an email address that is not found 
+  a. The system informs the user that the email address is not registered via error message 
+  b. The system prompts the user to enter a valid email address
+7. User enters a new password that is not accepted 
+  a. The system prompts the user to enter a valid password
+
+
 ## Manage Notes (Mauro)
   **Pre-condition:** The user has created notes in the application
   **Trigger:** User clicks “done” when finishing modification
