@@ -29,6 +29,27 @@ Account set up confirmation is received on the entered email address
 ** Alternate Sequence: ** 
 Cancel account creation
 
+## Authentication (Alan):
+**Pre-condition:** User must be in the process of registering for an account
+**Primary Sequence:** 
+User begins account registration.
+  1. The browser prompts the user to choose 3 of the 10 security questions provided 
+  2. User chooses 3 questions and provides an answer for them
+  3. The system saves selected questions and their answers to the database 
+  4. User proceeds to the steps mentioned in the registration use case.
+**Primary Postcondition** User will be escorted to the home page
+**Alternative sequence:**
+  1. User answers the question incorrectly 
+  2. Browser prompts the user to try again 
+  3. After 3 incorrect answers browser prompts user to answer the other 2
+  4. If all 3 tries are unsuccessful for the last 2, the user gets a temporary cooldown
+
+
+ 
+
+
+
+
 ## Login
 **Pre-condition:** The user has created an account and has access to the internet
 **Trigger:** User clicks “login” button
