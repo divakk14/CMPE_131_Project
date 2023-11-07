@@ -167,6 +167,16 @@ Alternative sequence:
   5. The system processes and saves the user's comments or additional information.
 **Primary Postconditions:** The user's comment is successfully added and displayed within the respective section or associated content
 **Alternate Sequence:** Deleting Comment: Users might have the option to delete their own comments, removing them from public view
+User’s flexibility with the note mode (dark mode, grid view, list view etc):
+Pre-condition: user already logged in and some default mode is already there. 
+Trigger: by clicking the action button “More” user will see option listed as “ View by” 
+Primary sequences: 
+The user is logged in.
+There is a default mode but the user wants to change that so they click the system mode. 
+They choose the mode either light or dark. 
+User selects the view to have their list by grid or by list.
+Postcondition: The user can see the preference they chose.
+Alternate sequence: The user will have the default website version.
 
 ## User Profile Editing (Mauro)
   **Pre-condition:** 
