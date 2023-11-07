@@ -167,7 +167,8 @@ Alternative sequence:
   5. The system processes and saves the user's comments or additional information.
 **Primary Postconditions:** The user's comment is successfully added and displayed within the respective section or associated content
 **Alternate Sequence:** Deleting Comment: Users might have the option to delete their own comments, removing them from public view
-User’s flexibility with the note mode (dark mode, grid view, list view etc):
+
+## User’s flexibility with the note mode (dark mode, grid view, list view etc) (Divak)
 Pre-condition: user already logged in and some default mode is already there. 
 Trigger: by clicking the action button “More” user will see option listed as “ View by” 
 Primary sequences: 
