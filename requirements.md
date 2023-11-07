@@ -211,3 +211,13 @@ Alternative sequence: unsorted notes list.
   5. Saving Changes: If the entered data is valid, the user confirms to save the changes.
 **Primary Postconditions:** The user’s profile is updated with the changes made and is reflected in the system
 **Alternate Sequence:** The user decides to cancel the editing process with the original information intact
+
+## Logout: (Alan)
+Pre condition: user is already logged into the website.
+Trigger: user clicks logout button. 
+ Primary sequence: 
+User is done using the website.
+User wants to exit the website.
+Then they still click the logout button to exit the website successfully and securely. 
+- 	primary post condition: user is successfully logged out.
+	Alternate sequence: user wants to view the list of already existing notes. 
