@@ -117,6 +117,21 @@ The system asks if user is sure via pop up to avoid accidental deletion
   **Primary Postconditions:** Any changes made by the user during note management are reflected in the system
   **Alternate Sequence:** Note management cancellation
 
+## Search Notes (Alan)
+ **Pre-condition:** User is on the home page by default.
+ **Trigger:** User clicks the search bar on the home page
+ **Primary Sequence:** 
+ User types in the search bar.
+ User’s search parses in all of the notes list and it searches the content of each note. 
+ It displays the information related to the user's search.
+ Then the user selects the one they want to form the list.
+ Primary postcondition: 
+User continues with the note which is related to their search.
+Alternative sequence: 
+User is no longer interested in searching.
+
+
+
 ## Comment on Notes (Mauro)
   **Pre-condition:**
   **Trigger:**
