@@ -18,6 +18,35 @@
 2. The title of the notes should be bold.  
 
 
+
+## Registration (Divak):
+**Pre-condition:** user doesn’t have any prior account on this website
+**Trigger:** User selects the “Register” button.
+**Primary sequences:**
+1. Users access the registration page after clicking the register button
+2. Users enter their first and last name, email address, password(alphanumeric)
+3. Account set up confirmation is received on the entered email address
+** Primary Postcondition: ** Account is successfully created in the system
+** Alternate Sequence: ** 
+2. Cancel account creation
+
+
+## Authentication (Alan):
+**Pre-condition:** User must have Gmail connected 
+**Primary Sequence:** 
+  1. User enters email and password on the home page
+  2. User presses login button
+  3. then user recieves verification code on their email 
+  4. Browser prompts user to a new page asking for the verification code
+  5. User checks their email for the code
+  6. user enters the code they are sent 
+  7. system verifies the code with the code sent to the gmail account. 
+**Primary Postcondition** User will be escorted to the home page
+**Alternative sequence:**
+  6. User enters an incorrect code
+     a) The system notifies the user that the code entered is invalid
+     b) The system prompts the user to enter the right code
+
 ## Registration (Divak):
 **Pre-condition:** user doesn’t have any prior account on this website
 **Trigger:** User selects the “Sign up” button.
