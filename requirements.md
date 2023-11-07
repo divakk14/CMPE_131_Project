@@ -201,8 +201,13 @@ Primary postcondition: user sees the latest note on top of the list.
 Alternative sequence: unsorted notes list.
 
 ## User Profile Editing (Mauro)
-  **Pre-condition:** 
-  **Trigger:**
-  **Primary Sequence:**
-  **Primary Postconditions:**
-  **Alternate Sequence:**
+**Pre-condition:** The user has an existing profile and has access to the internet
+**Trigger:** User clicks on the “edit profile” button
+**Primary Sequence:**
+  1. The user navigates to the profile or account settings section.
+  2. The system displays the user's current profile information, such as username, email, and other stored details.
+  3. The user selects the information they wish to modify, such as password  and profile picture
+  4. The system verifies the entered information for validity and consistency.
+  5. Saving Changes: If the entered data is valid, the user confirms to save the changes.
+**Primary Postconditions:** The user’s profile is updated with the changes made and is reflected in the system
+**Alternate Sequence:** The user decides to cancel the editing process with the original information intact
