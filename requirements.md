@@ -85,6 +85,24 @@ User begins account registration.
 7. User enters a new password that is not accepted 
   a. The system prompts the user to enter a valid password
 
+## Note Creation (Biruk)
+Pre-condition: The user is logged into the notes app  
+Trigger: User chooses to create a new note by clicking the “+” icon  
+Primary sequence: 
+User navigates to the home page 
+User opens the note creation interface in the application 
+User enters the title and contents of the new note including any attachments e.g. image 
+Auto saves when the note is closed. 
+System stores the new note in the user’s account 
+Primary postconditions: A new note is successfully created and stored in the user’s account, all notes will populate on home page  
+Alternate sequence: 
+4.1) User encounters an issue saving the note due to network error etc.
+The system informs the user via error message 
+The system offers the option to retry
+4.2) User decides to discard note after starting the creation process 
+User discards the note without saving 
+The system asks if user is sure via pop up to avoid accidental deletion 
+
 
 ## Manage Notes (Mauro)
   **Pre-condition:** The user has created notes in the application
