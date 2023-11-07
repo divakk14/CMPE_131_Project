@@ -144,6 +144,17 @@ The system will save notes to a specified folder
 Primary postconditions: The selected notes are successfully moved into the chosen folder.   
 Alternate sequence: The user opts to “cancel” the organization process before reaching step 7
 
+## Home Button (Biruk)
+Precondition: User has one of the notes opened 
+Trigger: User clicks the home button
+Primary Sequence: 
+User has a note open 
+User is done editing/viewing the note
+User wants to exit the note
+User clicks the home button
+Primary postcondition: User gets redirected to the home page 
+Alternative sequence: 
+4 a) User doesn’t click the home button and the user ends up staying on the opened notes. 
 
 ## Comment on Notes (Mauro)
   **Pre-condition:**
