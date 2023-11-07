@@ -136,18 +136,16 @@ User is no longer interested in searching
 
 ## Note Organization: Visualize note connections (Biruk)
 ** Pre-condition: ** The user is logged into the notes website and is on the home page.
-** Trigger: ** User clicks the “select” button.   
+** Trigger: ** User select the note they want to perform an action(move or delete)   
 ** Primary sequence: **
-1. User will click the “select” button to move notes into a folder
-2. The system will prompt user to select at least one note from the preexisting list of saved notes
-3. User selects the notes they want to move and clicks “next”
-4. The system will prompt user to select a folder from the preexisting list of folders or create a new folder
-5. If user selects new folder the system will prompt them to name the folder before continuing
-6. User will click “done”
-7. The system will save notes to a specified folder
-** Primary postconditions: ** The selected notes are successfully moved into the chosen folder.   
+1. User will select the notes.
+2. user will do right click after the selection of notes.
+3. User will do select either they want to move or delete.
+4. user's preferred action will be perfomred. 
+7. The system will save notes to a specified folder or delete
+** Primary postconditions: ** The selected notes are either moved to the particular folder or dleted.    
 ** Alternate sequence: **
-   The user opts to “cancel” the organization process before reaching step 7
+   1. user deselcts the note and decides to edit one of the note. 
 
 
 ## Home Button (Biruk)
