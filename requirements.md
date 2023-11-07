@@ -190,6 +190,15 @@ Then the user will go back to the list of existing notes where they will see the
 Primary postcondition: user can see their deleted notes in the default notes list.
 Alternate sequence: user loses once they delete the note.
 
+## Sorting Notes: (Alan)
+Pre-condition: there should be more than one note.
+Trigger: when more than one note is in the system the user account’s sorting algorithm at the backend acts as a trigger. 
+Primary sequence: 
+Users have an existing note.
+User starts writing a second note. 
+The backend sorting algorithm sorts according to the latest note added to the notes using the timestamp library. 
+Primary postcondition: user sees the latest note on top of the list.
+Alternative sequence: unsorted notes list.
 
 ## User Profile Editing (Mauro)
   **Pre-condition:** 
