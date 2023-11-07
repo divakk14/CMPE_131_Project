@@ -47,13 +47,14 @@ Cancel account creation
 
 ## Login (Mauro)
   **Pre-condition:** The user has created an account and has access to the internet
-  **Trigger:** User clicks “login” button
+  **Trigger:** User clicks the “login” button
   **Primary Sequence:** 
   1. User access login page
-  2. The user inputs their email, password, and security question
-  3. The system verifies the provided credentials against the stored user data
-  4. Successfully logged in (pop-up).  
-  5. Redirect to the home (main) page
+  2. The user inputs their email, and password.
+  3. once they enter the valid email they receive the authentication code on the same email. 
+  4. The system verifies the provided credentials and code with the code sent to the email. 
+  5. Successfully logged in (pop-up).  
+  6. Redirect to the home (main) page
   **Primary Postconditions:** The user can access the notes list
   **Alternate Sequence:**
 The user has input invalid credentials
