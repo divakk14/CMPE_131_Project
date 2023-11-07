@@ -107,9 +107,15 @@ The system asks if user is sure via pop up to avoid accidental deletion
 ## Manage Notes (Mauro)
   **Pre-condition:** The user has created notes in the application
   **Trigger:** User clicks “done” when finishing modification
-  **Primary Sequence:**
-  **Primary Postconditions:**
-  **Alternate Sequence:**
+  **Primary Sequence:** 
+  1. The user right-clicks the particular note they wish to modify.
+  2. After the right click, an option list is dropped such as edit, delete, or move to the folder.
+  3. If editing a note, the user modifies the content, update details, or adds information.
+  4. If the user intends to delete a note, they select the option to delete the chosen note.
+  5. The user reorganizes the selected note within the existing or new folder.
+  6. Changes are saved by the system
+  **Primary Postconditions:** Any changes made by the user during note management are reflected in the system
+  **Alternate Sequence:** Note management cancellation
 
 ## Comment on Notes (Mauro)
   **Pre-condition:**
