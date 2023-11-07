@@ -1,22 +1,21 @@
 ## Functional Requirements
-1. Registration 
+1. Registration
 2. Authentication
-3. Login 
-4. Password reset  
-5. Note Creation 
-6. Manage notes 
-7. Search notes 
-8. Note categorization 
-9. User profile editing 
-10. Integration with external API 
-11. Notes modification version control 
-12. The user is able to comment for additional information.
-13. The user's flexibility with the mode of the note
-14. Recovery of deleted notes
-15. Visualizing note connections
+3. Login Mauro
+4. Password reset
+5. Note Creation
+6. Manage notes Mauro
+7. Search notes Alan
+8. Note categorization Visualizing note connections
+9. User profile editing
+10. Users are able to comment for additional info
+11. User’s flexibility with the mode of the note
+12. Recovery of deleted notes
+13. Sorting Notes
+
 
 ## Non-functional Requirements
-1. Chrome compatibility
+1. 
 2. Multi-language support
 
 
