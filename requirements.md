@@ -1,17 +1,18 @@
 # Functional Requirements
 1. Registration
 2. Authentication
-3. Login Mauro
+3. Login 
 4. Password reset
 5. Note Creation
-6. Manage notes Mauro
-7. Search notes Alan
-8. Note categorization Visualizing note connections
-9. User profile editing
-10. Users can comment for additional info
+6. Manage notes
+7. Search notes
+8. Note categorization (Visualizing note connections)
+9. Home Button
+10. Comment on a particular note
 11. User’s flexibility with the mode of the note
 12. Recovery of deleted notes
 13. Sorting Notes
+14. user profile editing
 
 # Non-functional requirements: 
 1. When the particular note is opened there should be a label or tag of the folder if the note belongs to any of the folders.
