@@ -1,18 +1,18 @@
 # Functional Requirements
-1. Registration
-2. Authentication
-3. Login 
-4. Password reset
-5. Note Creation
-6. Manage notes
-7. Search notes
-8. Note categorization (Visualizing note connections)
-9. Home Button
-10. Comment on a particular note
-11. User’s flexibility with the mode of the note
-12. Recovery of deleted notes
-13. Sorting Notes
-14. user profile editing
+1. **Registration:** Allows the user to create an account on the notes web application
+2. **Authentication:** 
+3. **Login:** Allows the user to enter their credentials and sign into the notes web application 
+4. **Password reset:** If the user has forgoten their password this is a way to reset it
+5. **Note Creation:** Allows the user to create a new note in the notes web application
+6. **Manage notes:**
+7. **Search notes:** Allows the user to search for key words in their collection of notes 
+8. **Note categorization (Visualizing note connections)**
+9. **Home Button:** Allows the user to go back to the homepage once they have navigated elsewhere
+10. **Comment on a particular note:**
+11. **User’s flexibility with the mode of the note:**
+12. **Recovery of deleted notes:** Allows the user to restore a previously deleted note 
+13. **Sorting Notes:**
+14. **User profile editing:** Allows the user to edit the information in their profile after registration 
 
 # Non-functional requirements: 
 1. When the particular note is opened there should be a label or tag of the folder if the note belongs to any of the folders.
