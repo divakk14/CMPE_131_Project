@@ -201,50 +201,67 @@ The user will have the default website version.
 
 ## Recovery of deleted notes (Divak)
 **Pre-condition:** The user has already deleted the notes which are stored in the deleted folder.
+
 **Trigger:** The user will open the trash folder where the deleted note will be stored so the user will have two options either to delete it permanently or recover it. 
+
 **Primary sequences:**
 1. The user will open the trash folder.
 2. Users will select the note they want to recover.
 3. Users will click the recover option once they select the note they want to recover from the trash folder.
 4. Then the user will go back to the list of existing notes where they will see the deleted note successfully recovered from the trash folder. 
+
 **Primary postcondition:** user can see their deleted notes in the default notes list.
+
 **Alternate sequence:**
 The user permanently loses their note. 
 
 
 ## Sorting Notes: (Alan)
 **Pre-condition:** there should be more than one note.
+
 **Trigger:** when more than one note is in the system the user account’s sorting algorithm at the backend acts as a trigger. 
+
 **Primary sequence:**
 1. Users have an existing note.
 2. User starts writing a second note.
 3. The backend sorting algorithm sorts according to the latest note added to the notes using the timestamp library. 
+
 **Primary postcondition:** user sees the latest note on top of the list.
+
 **Alternative sequence:**
 unsorted notes list.
 
 
 ## User Profile Editing (Mauro)
+
 **Pre-condition:** The user has an existing profile and has access to the internet
+
 **Trigger:** User clicks on the “edit profile” button
+
 **Primary Sequence:**
   1. The user navigates to the profile or account settings section.
   2. The system displays the user's current profile information, such as username, email, and other stored details.
   3. The user selects the information they wish to modify, such as password  and profile picture
   4. The system verifies the entered information for validity and consistency.
   5. Saving Changes: If the entered data is valid, the user confirms to save the changes.
+
 **Primary Postconditions:** The user’s profile is updated with the changes made and is reflected in the system
+
 **Alternate Sequence:**
 The user decides to cancel the editing process with the original information intact
 
 
 ## Logout: (Alan)
 **Pre-condition:** user is already logged into the website.
-**Trigger: ** user clicks the logout button. 
-** Primary sequence: **
+
+**Trigger:** user clicks the logout button. 
+
+**Primary sequence:**
 1. User is done using the website.
 2. User wants to exit the website.
 3. Then they still click the logout button to exit the website successfully and securely. 
-**primary post condition:** user is successfully logged out.
+
+**primary postcondition:** user is successfully logged out.
+
 **Alternate sequence:**
 user wants to view the list of already existing notes. 
