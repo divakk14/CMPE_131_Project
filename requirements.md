@@ -268,7 +268,7 @@ The user permanently loses their note.
 **Primary postcondition:** user sees the latest note on top of the list.
 
 **Alternative sequence:**
-unsorted notes list.
+Unsorted notes list.
 
 
 ## User Profile Editing (Mauro)
@@ -300,7 +300,7 @@ The user decides to cancel the editing process with the original information int
 2. User wants to exit the website.
 3. Then they still click the logout button to exit the website successfully and securely. 
 
-**primary postcondition:** user is successfully logged out.
+**Primary postcondition:** User is successfully logged out.
 
 **Alternate sequence:**
-user wants to view the list of already existing notes. 
+User wants to view the list of already existing notes. 
