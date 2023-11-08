@@ -1,29 +1,18 @@
-## Instructions
-- Delete this block before adding to your repository.
-- Delete any instructions you see below they will be within < >
-- This schedule should reflect the meetings from the start of the project until the end of the semester.
-- Write at least 1 meeting per week until the end of the semester
-
 ## Meetings
-### 2023-10-01 at 10:30
-- Who attended the meeting
+### 2023-11-01 at 13:30
+- All team members attended the meeting 
 - Team updates (15min or less)
-<Each team member gives an update of what they did from the last meeting and what
-they plan to do next. If they are stuck, bring it up here to see if others can
-help.>
-- <name> worked on X. Will work on Y next.
-- pair-programming (optional) (25 mins)
-<- Pair program on one part of the project. Driver will be the person responsible
-for that requirement.>
-- Summarize group progress
+- Every team member brainstormed ideas of what could go into the semester project. We originally came up with ideas of what the project could be about and drew a sketch of the potential user interface.
+- As a group, we assigned the team leader to be Divak and Biruk to be the Scribe.
 
-### 2023-10-08 at 13:30
-<meeting template would go here>
-<only fill in template once you had the meeting>
-<see example on the last date>
-<use date format YYYY-MM-DD at HH:MM>
+### 2023-11-04 at 13:30
+- All team members attended the meeting
+- Alan worked on the search, logout, and sorting of notes use cases. Plans to fine-tune search functionality and commence work on the note-sorting feature.
+- Mauro contributed to the creation of the initial commit for requirements.md (decd518) and worked on the user profile editing use case (dfac6ca). Next, focusing on refining the UI sketches for better user experience.
+- Divak, as the team leader, added the recovery of deleted notes and user flexibility with note modes. Continues to provide substantial feedback during our brainstorming sessions and plans to enhance the note modes feature.
+- Biruk (Scribe) contributed significantly to note creation, image attachment, note organization, visualizing note connections, password reset, and the home button use cases. Next, focus on finalizing note organization and visual connection functionalities.
 
-### 2023-10-15 at 10:30
-<meeting template would go here>
-<only fill in template once you had the meeting>
+### 2023-11-06 at 12:00
+- All team members attended the meeting
+- Each team member committed their own use case and proofread the requirements.md in order to submit the directory to canvas
 
