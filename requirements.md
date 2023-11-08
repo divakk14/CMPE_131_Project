@@ -20,35 +20,46 @@
 
 ## Registration (Divak):
 **Pre-condition:** The user doesn’t have any prior account on this website
+
 **Trigger:** User selects the “Register” button.
+
 **Primary sequences:**
 1. Users access the registration page after clicking the register button
-2. Users enter their first and last name, email address, password(alphanumeric)
+2. Users enter their first and last name, email address, password (alphanumeric)
 3. Account set-up confirmation is received on the entered email address
-** Primary Postcondition: ** Account is successfully created in the system
-** Alternate Sequence: ** 
+
+**Primary Postcondition:** Account is successfully created in the system
+
+**Alternate Sequence:** 
+
 2. Cancel account creation
 
 ## Authentication (Alan):
 **Pre-condition:** User must have Gmail connected 
+
+**Trigger:** User enters email and password on the login page and clicks login
+
 **Primary Sequence:** 
-  1. User enters email and password on the home page
-  2. The user presses login button
-  3. then user receives verification code on their email 
-  4. The browser prompts user to a new page asking for the verification code
-  5. The user checks their email for the code
-  6. the user enters the code they are sent 
-  7. The system verifies the code with the code sent to the Gmail account. 
+1. The user receives verification code on their email
+2. The browser prompts user to a new page asking for the verification code
+3. The user checks their email for the code
+4. The user enters the code they are sent
+5. The system verifies the code with the code sent to the Gmail account. 
+
 **Primary Postcondition** User will be escorted to the home page
+
 **Alternative sequence:**
-  6. User enters an incorrect code
-     a) The system notifies the user that the code entered is invalid
-     b) The system prompts the user to enter the right code
+
+4. User enters an incorrect code
+  a) The system notifies the user that the code entered is invalid
+  b) The system prompts the user to enter the right code
 
 
 ## Login (Mauro)
   **Pre-condition:** The user has created an account and has access to the internet
+  
   **Trigger:** User clicks the “login” button
+  
   **Primary Sequence:** 
   1. User access login page
   2. The user inputs their email, and password.
@@ -56,7 +67,9 @@
   4. The system verifies the provided credentials and code with the code sent to the email. 
   5. Successfully logged in (pop-up).  
   6. Redirect to the home (main) page
+  
   **Primary Postconditions:** The user can access the notes list
+  
   **Alternate Sequence:**
 The user has input invalid credentials
 
