@@ -77,22 +77,18 @@ The user has input invalid credentials
 
 
 ## Password Reset (Biruk)
-**Pre-condition:** The user is registered with the system but is unable to access their account due to incorrect password assuming the user has entered the right email address and security questions.
+**Pre-condition:** The user is registered with the system but is unable to access their account due to an incorrect password assuming the user has entered the right email address
 
 **Trigger:** User clicks “forgot password” button to initiate password reset. 
 
 **Primary sequence:** 
-1. User navigates to the login page
-2. The user inputs their email, password, and security question
-3. The system notifies user that they have entered an incorrect password 
-4. User clicks on the “forgot password” button
-5. The system opens a form that prompts the user to enter their registered email address
-6. User enters their email address and clicks submit 
-7. The system generates a password reset link and sends it to the users email 
-8. User receives the email and clicks on the password reset link
-9. User sets a new password 
-10. The system updates the password in the database 
-11. User receives a password reset confirmation email.
+1. The system opens a form that prompts the user to enter their registered email address.
+2. User enters their email address and clicks submit.
+3. The system generates a password reset link and sends it to the users email.
+4. User receives the email and clicks on the password reset link.
+5. User sets a new password.
+6. The system updates the password in the database.
+7. User receives a password reset confirmation email.
 
 **Primary postconditions:** The user has successfully reset their password and can now login with the new password. 
 
@@ -106,11 +102,11 @@ The user has input invalid credentials
 
 7. The user enters a new password that is not accepted
 
-   a. The system prompts the user to enter a valid password
+   a. The system prompts the user to enter a valid password (alphanumeric)
 
 
 ## Note Creation (Biruk)
-**Pre-condition:** The user is logged into the notes app  
+**Pre-condition:** The user is logged into the notes web application
 
 **Trigger:** User chooses to create a new note by clicking the “+” icon  
 
@@ -173,20 +169,20 @@ User is no longer interested in searching
 ## Note Organization: Visualize note connections (Biruk)
 **Pre-condition:** The user is logged into the notes website and is on the home page.
 
-**Trigger:** User select the note they want to perform an action(move or delete)   
+**Trigger:** User select the notes they want to perform an action on (move or delete)   
 
 **Primary sequence:**
 1. User will select the notes.
-2. user will do right click after the selection of notes.
-3. User will do select either they want to move or delete.
-4. user's preferred action will be perfomred. 
-7. The system will save notes to a specified folder or delete
+2. User will right click after the prefered notes are selected.
+3. User will select to either move or delete the selected notes.
+4. User's preferred action will be perfomred. 
+7. The system will save notes to a specified folder or delete them
 
 **Primary postconditions:** The selected notes are either moved to the particular folder or dleted.    
 
 **Alternate sequence:**
    
-   1. user deselcts the note and decides to edit one of the note. 
+   1. User deselcts all notes except one and has the ability to edit, move, or delete 
 
 
 ## Home Button (Biruk)
@@ -204,7 +200,7 @@ User is no longer interested in searching
 
 **Alternative sequence:**
 
-4. User doesn’t click the home button and the user ends up staying on the opened notes
+4. User doesn’t click the home button and ends up staying on the opened notes
 
 
 ## Comment on Notes (Mauro)
