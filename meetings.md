@@ -9,7 +9,7 @@
 - Alan worked on the search, logout, and sorting of notes use cases. Plans to fine-tune search functionality and commence work on the note-sorting feature.
 - Mauro contributed to the creation of the initial commit for requirements.md and worked on the user profile editing use case. Next, focusing on refining the UI sketches for better user experience.
 - Divak, as the team leader, added the recovery of deleted notes and user flexibility with note modes. Continues to provide substantial feedback during our brainstorming sessions and plans to enhance the note modes feature.
-- Biruk (Scribe) contributed significantly to note creation, image attachment, note organization, visualizing note connections, password reset, and the home button use cases. Next, focus on finalizing note organization and visual connection functionalities.
+- Biruk contributed significantly to note creation, image attachment, note organization, visualizing note connections, password reset, and the home button use cases. Next, focus on finalizing note organization and visual connection functionalities.
 - Reviewed and aligned individual contributions. Initiated discussions for the next phase of feature development. Agreed to proofread the requirements.md for submission.
 
 ### 2023-11-06 at 12:00
