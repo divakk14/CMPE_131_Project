@@ -51,8 +51,10 @@
 **Alternative sequence:**
 
 4. User enters an incorrect code
-  a) The system notifies the user that the code entered is invalid
-  b) The system prompts the user to enter the right code
+
+   a) The system notifies the user that the code entered is invalid
+
+   b) The system prompts the user to enter the right code
 
 
 ## Login (Mauro)
@@ -75,9 +77,11 @@ The user has input invalid credentials
 
 
 ## Password Reset (Biruk)
-** Pre-condition: ** The user is registered with the system but is unable to access their account due to incorrect password assuming the user has entered the right email address and security questions.
-** Trigger: ** User clicks “forgot password” button to initiate password reset. 
-** Primary sequence: ** 
+**Pre-condition:** The user is registered with the system but is unable to access their account due to incorrect password assuming the user has entered the right email address and security questions.
+
+**Trigger:** User clicks “forgot password” button to initiate password reset. 
+
+**Primary sequence:** 
 1. User navigates to the login page
 2. The user inputs their email, password, and security question
 3. The system notifies user that they have entered an incorrect password 
@@ -89,29 +93,42 @@ The user has input invalid credentials
 9. User sets a new password 
 10. The system updates the password in the database 
 11. User receives a password reset confirmation email.
-** Primary postconditions: ** The user has successfully reset their password and can now login with the new password. 
-** Alternate sequence: **
+
+**Primary postconditions:** The user has successfully reset their password and can now login with the new password. 
+
+**Alternate sequence:**
+
 4. User enters an email address that is not found 
-  a. The system informs the user that the email address is not registered via error message 
-  b. The system prompts the user to enter a valid email address
-7. The user enters a new password that is not accepted 
-  a. The system prompts the user to enter a valid password
+
+   a. The system informs the user that the email address is not registered via error message 
+
+   b. The system prompts the user to enter a valid email address
+
+7. The user enters a new password that is not accepted
+
+   a. The system prompts the user to enter a valid password
 
 
 ## Note Creation (Biruk)
-** Pre-condition: ** The user is logged into the notes app  
-** Trigger: ** User chooses to create a new note by clicking the “+” icon  
-** Primary sequence: **
+**Pre-condition:** The user is logged into the notes app  
+
+**Trigger:** User chooses to create a new note by clicking the “+” icon  
+
+**Primary sequence:**
 1. User navigates to the home page
 2. User opens the note creation interface in the application
 3. User enters the title and contents of the new note including any attachments e.g. image
 4. Auto saves when the note is closed.
 5. System stores the new note in the user’s account
+
 ** Primary postconditions:** A new note is successfully created and stored in the user’s account, all notes will populate on home page  
-Alternate sequence: 
+
+**Alternate sequence:**
+
 4.1) User encounters an issue saving the note due to network error etc.
 The system informs the user via error message 
 The system offers the option to retry
+
 4.2) User decides to discard note after starting the creation process 
 User discards the note without saving 
 The system asks if user is sure via pop up to avoid accidental deletion 
@@ -119,7 +136,9 @@ The system asks if user is sure via pop up to avoid accidental deletion
 
 ## Manage Notes (Mauro)
   **Pre-condition:** The user has created notes in the application
+  
   **Trigger:** User clicks “done” when finishing modification
+  
   **Primary Sequence:** 
   1. The user right-clicks the particular note they wish to modify.
   2. After the right click, an option list is dropped such as edit, delete, or move to the folder.
@@ -127,74 +146,98 @@ The system asks if user is sure via pop up to avoid accidental deletion
   4. If the user intends to delete a note, they select the option to delete the chosen note.
   5. The user reorganizes the selected note within the existing or new folder.
   6. The system saves changes
+ 
   **Primary Postconditions:** Any changes made by the user during note management are reflected in the system
+  
   **Alternate Sequence:**
 Note management cancellation
 
 
 ## Search Notes (Alan)
  **Pre-condition:** User is on the home page by default.
+ 
  **Trigger:** User clicks the search bar on the home page
+ 
  **Primary Sequence:** 
  1. User types in the search bar.
  2. User’s search parses in all of the notes list and it searches the content of each note.
  3. It displays the information related to the user's search.
  4. Then the user selects the one they want to form the list.
-** Primary postcondition: ** User continues with the note which is related to their search.
-** Alternative sequence: **
+
+**Primary postcondition:** User continues with the note which is related to their search.
+
+**Alternative sequence:**
 User is no longer interested in searching
 
 
 ## Note Organization: Visualize note connections (Biruk)
-** Pre-condition: ** The user is logged into the notes website and is on the home page.
-** Trigger: ** User select the note they want to perform an action(move or delete)   
-** Primary sequence: **
+**Pre-condition:** The user is logged into the notes website and is on the home page.
+
+**Trigger:** User select the note they want to perform an action(move or delete)   
+
+**Primary sequence:**
 1. User will select the notes.
 2. user will do right click after the selection of notes.
 3. User will do select either they want to move or delete.
 4. user's preferred action will be perfomred. 
 7. The system will save notes to a specified folder or delete
-** Primary postconditions: ** The selected notes are either moved to the particular folder or dleted.    
-** Alternate sequence: **
+
+**Primary postconditions:** The selected notes are either moved to the particular folder or dleted.    
+
+**Alternate sequence:**
+   
    1. user deselcts the note and decides to edit one of the note. 
 
 
 ## Home Button (Biruk)
-** Precondition: ** User has one of the notes opened 
-** Trigger: ** User clicks the home button
-** Primary Sequence: **
+**Precondition:** User has one of the notes opened 
+
+**Trigger:** User clicks the home button
+
+**Primary Sequence:**
 1. User has a note open
 2. User is done editing/viewing the note
 3. User wants to exit the note
 4. User clicks the home button
-** Primary postcondition: ** User gets redirected to the home page 
-** Alternative sequence: **
+
+**Primary postcondition:** User gets redirected to the home page 
+
+**Alternative sequence:**
+
 4. User doesn’t click the home button and the user ends up staying on the opened notes
 
 
 ## Comment on Notes (Mauro)
 **Pre-condition:** The user has already created a note
+
 **Trigger:** User clicks “done” after typing in the comment section
+
 **Primary Sequence:** 
   1. The user navigates to the specific section or feature for comments or additional information.
   2. The system displays the content or subject for which the user wishes to comment or provide additional information.
   3. The user selects the option or interface to create a new comment or provide supplementary details.
   4. The user clicks the "Done" button to submit the comment.
   5. The system processes and saves the user's comments or additional information.
+
 **Primary Postconditions:** The user's comment is successfully added and displayed within the respective section or associated content
+
 **Alternate Sequence:**
 Deleting Comment: Users might have the option to delete their own comments, removing them from public view
 
 
 ## User’s flexibility with the note mode (dark mode, grid view, list view etc) (Divak)
 **Pre-condition:** user already logged in and some default mode is already there. 
+
 **Trigger:** by clicking the action button “More” user will see option listed as “ View by” 
+
 **Primary sequences:** 
 1. The user is logged in.
 2. There is a default mode but the user wants to change that so they click the system mode.
 3. They choose the mode either light or dark.
 4. The user selects the view to have their list by grid or by list.
+
 **Postcondition:** The user can see the preference they chose.
+
 **Alternate sequence:**
 The user will have the default website version.
 
