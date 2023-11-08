@@ -8,7 +8,7 @@
 7. Search notes Alan
 8. Note categorization Visualizing note connections
 9. User profile editing
-10. Users are able to comment for additional info
+10. Users can comment for additional info
 11. User’s flexibility with the mode of the note
 12. Recovery of deleted notes
 13. Sorting Notes
@@ -17,30 +17,27 @@
 1. When the particular note is opened there should be a label or tag of the folder if the note belongs to any of the folders.
 2. The title of the notes should be bold.  
 
-
-
 ## Registration (Divak):
-**Pre-condition:** user doesn’t have any prior account on this website
+**Pre-condition:** The user doesn’t have any prior account on this website
 **Trigger:** User selects the “Register” button.
 **Primary sequences:**
 1. Users access the registration page after clicking the register button
 2. Users enter their first and last name, email address, password(alphanumeric)
-3. Account set up confirmation is received on the entered email address
+3. Account set-up confirmation is received on the entered email address
 ** Primary Postcondition: ** Account is successfully created in the system
 ** Alternate Sequence: ** 
 2. Cancel account creation
-
 
 ## Authentication (Alan):
 **Pre-condition:** User must have Gmail connected 
 **Primary Sequence:** 
   1. User enters email and password on the home page
-  2. User presses login button
-  3. then user recieves verification code on their email 
-  4. Browser prompts user to a new page asking for the verification code
-  5. User checks their email for the code
-  6. user enters the code they are sent 
-  7. system verifies the code with the code sent to the gmail account. 
+  2. The user presses login button
+  3. then user receives verification code on their email 
+  4. The browser prompts user to a new page asking for the verification code
+  5. The user checks their email for the code
+  6. the user enters the code they are sent 
+  7. The system verifies the code with the code sent to the Gmail account. 
 **Primary Postcondition** User will be escorted to the home page
 **Alternative sequence:**
   6. User enters an incorrect code
@@ -83,7 +80,7 @@ The user has input invalid credentials
 4. User enters an email address that is not found 
   a. The system informs the user that the email address is not registered via error message 
   b. The system prompts the user to enter a valid email address
-7. User enters a new password that is not accepted 
+7. The user enters a new password that is not accepted 
   a. The system prompts the user to enter a valid password
 
 
@@ -115,7 +112,7 @@ The system asks if user is sure via pop up to avoid accidental deletion
   3. If editing a note, the user modifies the content, update details, or adds information.
   4. If the user intends to delete a note, they select the option to delete the chosen note.
   5. The user reorganizes the selected note within the existing or new folder.
-  6. Changes are saved by the system
+  6. The system saves changes
   **Primary Postconditions:** Any changes made by the user during note management are reflected in the system
   **Alternate Sequence:**
 Note management cancellation
@@ -182,22 +179,23 @@ Deleting Comment: Users might have the option to delete their own comments, remo
 1. The user is logged in.
 2. There is a default mode but the user wants to change that so they click the system mode.
 3. They choose the mode either light or dark.
-4. User selects the view to have their list by grid or by list.
+4. The user selects the view to have their list by grid or by list.
 **Postcondition:** The user can see the preference they chose.
-**Alternate sequence:** The user will have the default website version.
+**Alternate sequence:**
+The user will have the default website version.
 
 
 ## Recovery of deleted notes (Divak)
-**Pre-condition:** user has already deleted the notes which are stored in the deleted folder.
-**Trigger:** user will open the trash folder where the deleted note will be stored so the user will have two options either to delete it permanently or recover it. 
+**Pre-condition:** The user has already deleted the notes which are stored in the deleted folder.
+**Trigger:** The user will open the trash folder where the deleted note will be stored so the user will have two options either to delete it permanently or recover it. 
 **Primary sequences:**
-1. User will open the trash folder.
+1. The user will open the trash folder.
 2. Users will select the note they want to recover.
 3. Users will click the recover option once they select the note they want to recover from the trash folder.
 4. Then the user will go back to the list of existing notes where they will see the deleted note successfully recovered from the trash folder. 
 **Primary postcondition:** user can see their deleted notes in the default notes list.
 **Alternate sequence:**
-user loses once they delete the note.
+The user permanently loses their note. 
 
 
 ## Sorting Notes: (Alan)
@@ -227,8 +225,8 @@ The user decides to cancel the editing process with the original information int
 
 
 ## Logout: (Alan)
-**Pre condition:** user is already logged into the website.
-**Trigger: ** user clicks logout button. 
+**Pre-condition:** user is already logged into the website.
+**Trigger: ** user clicks the logout button. 
 ** Primary sequence: **
 1. User is done using the website.
 2. User wants to exit the website.
