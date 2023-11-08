@@ -1,20 +1,20 @@
 # Functional Requirements
-1. **Registration:** Allows the user to create an account on the notes web application
-2. **Authentication:** 
+1. **Registration:** Allows the user to create an account on the Notes web application
+2. **Authentication** 
 3. **Login:** Allows the user to enter their credentials and sign into the notes web application 
-4. **Password reset:** If the user has forgoten their password this is a way to reset it
+4. **Password reset:** If the user has forgotten their password this is a way to reset it
 5. **Note Creation:** Allows the user to create a new note in the notes web application
-6. **Manage notes:**
-7. **Search notes:** Allows the user to search for key words in their collection of notes 
+6. **Manage notes**
+7. **Search notes:** Allows the user to search for keywords in their collection of notes 
 8. **Note categorization (Visualizing note connections)**
 9. **Home Button:** Allows the user to go back to the homepage once they have navigated elsewhere
-10. **Comment on a particular note:**
-11. **User’s flexibility with the mode of the note:**
+10. **Comment on a particular note**
+11. **User’s flexibility with the mode of the note**
 12. **Recovery of deleted notes:** Allows the user to restore a previously deleted note 
-13. **Sorting Notes:**
+13. **Sorting Notes**
 14. **User profile editing:** Allows the user to edit the information in their profile after registration 
 
-# Non-functional requirements: 
+# Non-functional requirements: (Divak) 
 1. When the particular note is opened there should be a label or tag of the folder if the note belongs to any of the folders.
 2. The title of the notes should be bold.  
 
@@ -40,8 +40,8 @@
 **Trigger:** User enters email and password on the login page and clicks login
 
 **Primary Sequence:** 
-1. The user receives verification code on their email
-2. The browser prompts user to a new page asking for the verification code
+1. The user receives a verification code on their email
+2. The browser prompts the user to a new page asking for the verification code
 3. The user checks their email for the code
 4. The user enters the code they are sent
 5. The system verifies the code with the code sent to the Gmail account. 
@@ -50,7 +50,7 @@
 
 **Alternative sequence:**
 
-4. User enters an incorrect code
+4. The user enters an incorrect code
 
    a) The system notifies the user that the code entered is invalid
 
@@ -70,27 +70,28 @@
   5. Successfully logged in (pop-up).  
   6. Redirect to the home (main) page
   
-  **Primary Postconditions:** The user can access the notes list
+  **Primary Postconditions:** The user can access the notes list.
   
   **Alternate Sequence:**
-The user has input invalid credentials
+
+2. The user has inputted invalid credentials.
 
 
 ## Password Reset (Biruk)
 **Pre-condition:** The user is registered with the system but is unable to access their account due to an incorrect password assuming the user has entered the right email address
 
-**Trigger:** User clicks “forgot password” button to initiate password reset. 
+**Trigger:** User clicks the “forgot password” button to initiate a password reset. 
 
 **Primary sequence:** 
 1. The system opens a form that prompts the user to enter their registered email address.
-2. User enters their email address and clicks submit.
-3. The system generates a password reset link and sends it to the users email.
-4. User receives the email and clicks on the password reset link.
-5. User sets a new password.
+2. The user enters their email address and clicks submit.
+3. The system generates a password reset link and sends it to the user's email.
+4. The user receives the email and clicks on the password reset link.
+5. The user sets a new password.
 6. The system updates the password in the database.
 7. User receives a password reset confirmation email.
 
-**Primary postconditions:** The user has successfully reset their password and can now login with the new password. 
+**Primary postconditions:** The user has successfully reset their password and can now log in with the new password. 
 
 **Alternate sequence:**
 
@@ -106,28 +107,26 @@ The user has input invalid credentials
 
 
 ## Note Creation (Biruk)
-**Pre-condition:** The user is logged into the notes web application
+**Pre-condition:** The user is logged into the Notes web application
 
 **Trigger:** User chooses to create a new note by clicking the “+” icon  
 
 **Primary sequence:**
 1. User navigates to the home page
-2. User opens the note creation interface in the application
-3. User enters the title and contents of the new note including any attachments e.g. image
+2. The user opens the note creation interface in the application
+3. The user enters the title and contents of the new note including any attachments e.g. image
 4. Auto saves when the note is closed.
 5. System stores the new note in the user’s account
 
-** Primary postconditions:** A new note is successfully created and stored in the user’s account, all notes will populate on home page  
+**Primary postconditions:** A new note is successfully created and stored in the user’s account, all notes will populate on home page  
 
 **Alternate sequence:**
 
-4.1) User encounters an issue saving the note due to network error etc.
-The system informs the user via error message 
-The system offers the option to retry
+4. The user decides to discard the note after starting the creation process 
 
-4.2) User decides to discard note after starting the creation process 
-User discards the note without saving 
-The system asks if user is sure via pop up to avoid accidental deletion 
+   a. The user discards the note without saving it.
+   
+   b. The system asks if a user is sure via pop-up to avoid accidental deletion 
 
 
 ## Manage Notes (Mauro)
@@ -146,7 +145,8 @@ The system asks if user is sure via pop up to avoid accidental deletion
   **Primary Postconditions:** Any changes made by the user during note management are reflected in the system
   
   **Alternate Sequence:**
-Note management cancellation
+  
+3. Note management cancellation
 
 
 ## Search Notes (Alan)
@@ -163,26 +163,27 @@ Note management cancellation
 **Primary postcondition:** User continues with the note which is related to their search.
 
 **Alternative sequence:**
-User is no longer interested in searching
+
+1. The user is no longer interested in searching
 
 
 ## Note Organization: Visualize note connections (Biruk)
 **Pre-condition:** The user is logged into the notes website and is on the home page.
 
-**Trigger:** User select the notes they want to perform an action on (move or delete)   
+**Trigger:** User selects the notes they want to perform an action on (move or delete)   
 
 **Primary sequence:**
-1. User will select the notes.
-2. User will right click after the prefered notes are selected.
-3. User will select to either move or delete the selected notes.
-4. User's preferred action will be perfomred. 
+1. The user will select the notes.
+2. The user will right-click after the preferred notes are selected.
+3. The user will select to either move or delete the selected notes.
+4. The user's preferred action will be performed. 
 7. The system will save notes to a specified folder or delete them
 
-**Primary postconditions:** The selected notes are either moved to the particular folder or dleted.    
+**Primary postconditions:** The selected notes are either moved to the particular folder or deleted.    
 
 **Alternate sequence:**
    
-   1. User deselcts all notes except one and has the ability to edit, move, or delete 
+   1. The user deselects all notes except one and can edit, move, or delete 
 
 
 ## Home Button (Biruk)
@@ -191,16 +192,16 @@ User is no longer interested in searching
 **Trigger:** User clicks the home button
 
 **Primary Sequence:**
-1. User has a note open
-2. User is done editing/viewing the note
-3. User wants to exit the note
-4. User clicks the home button
+1. The user has a note open
+2. The user is done editing/viewing the note
+3. The user wants to exit the note
+4. The user clicks the home button
 
 **Primary postcondition:** User gets redirected to the home page 
 
 **Alternative sequence:**
 
-4. User doesn’t click the home button and ends up staying on the opened notes
+4. The user doesn’t click the home button and ends up staying on the opened notes
 
 
 ## Comment on Notes (Mauro)
@@ -218,24 +219,26 @@ User is no longer interested in searching
 **Primary Postconditions:** The user's comment is successfully added and displayed within the respective section or associated content
 
 **Alternate Sequence:**
-Deleting Comment: Users might have the option to delete their own comments, removing them from public view
+
+5. Deleting Comment: Users might have the option to delete their comments, removing them from public view
 
 
-## User’s flexibility with the note mode (dark mode, grid view, list view etc) (Divak)
-**Pre-condition:** user already logged in and some default mode is already there. 
+## User’s flexibility with the note mode (dark mode, grid view, list view, etc) (Divak)
+**Pre-condition:** The user already logged in and some default mode is already there. 
 
-**Trigger:** by clicking the action button “More” user will see option listed as “ View by” 
+**Trigger:** By clicking the action button “More” the user will see an option listed as “ View by” 
 
 **Primary sequences:** 
 1. The user is logged in.
-2. There is a default mode but the user wants to change that so they click the system mode.
+2. The user wants to change the mode so they click the view by for their preferences.
 3. They choose the mode either light or dark.
 4. The user selects the view to have their list by grid or by list.
 
 **Postcondition:** The user can see the preference they chose.
 
 **Alternate sequence:**
-The user will have the default website version.
+
+2. The user will have the default website version.
 
 
 ## Recovery of deleted notes (Divak)
@@ -252,24 +255,28 @@ The user will have the default website version.
 **Primary postcondition:** user can see their deleted notes in the default notes list.
 
 **Alternate sequence:**
-The user permanently loses their note. 
+
+3. The user permanently loses their note. 
 
 
 ## Sorting Notes: (Alan)
-**Pre-condition:** there should be more than one note.
+**Pre-condition:** There already exists a note. 
 
-**Trigger:** when more than one note is in the system the user account’s sorting algorithm at the backend acts as a trigger. 
+**Trigger:** When more than one note is in the system the notes list is sorted according to the time stamp.  
 
 **Primary sequence:**
-1. Users have an existing note.
-2. User starts writing a second note.
-3. The backend sorting algorithm sorts according to the latest note added to the notes using the timestamp library. 
+1. There is a pre-existing note in the user's account.
+2. The user starts writing a second note.
+3. The system successfully saves the latest note.
+4. Now the sorting algorithm will sort both of the notes according to the time stamps.
 
-**Primary postcondition:** user sees the latest note on top of the list.
+**Primary postcondition:** The user sees the latest note on top of the list.
 
 **Alternative sequence:**
-Unsorted notes list.
 
+2. The user decides to cancel the new note creation.
+
+   a. The previous note(s) are sorted by default (Timestamp)
 
 ## User Profile Editing (Mauro)
 
@@ -287,20 +294,22 @@ Unsorted notes list.
 **Primary Postconditions:** The user’s profile is updated with the changes made and is reflected in the system
 
 **Alternate Sequence:**
-The user decides to cancel the editing process with the original information intact
+
+3. The user decides to cancel the editing process with the original information intact
 
 
 ## Logout: (Alan)
-**Pre-condition:** user is already logged into the website.
+**Pre-condition:** The user is already logged into the website.
 
-**Trigger:** user clicks the logout button. 
+**Trigger:** The user clicks the logout button. 
 
 **Primary sequence:**
-1. User is done using the website.
-2. User wants to exit the website.
-3. Then they still click the logout button to exit the website successfully and securely. 
+1. The user is done using the website and wants to exit the website.
+2. The user will click the action button (more) to successfully log out.
+3. The user is now navigated to the login page. 
 
 **Primary postcondition:** User is successfully logged out.
 
 **Alternate sequence:**
-User wants to view the list of already existing notes. 
+
+1. The user is interested in doing some activity with the already existing notes. 
