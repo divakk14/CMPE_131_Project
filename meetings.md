@@ -11,8 +11,14 @@
 - Mauro contributed to the creation of the initial commit for requirements.md (decd518) and worked on the user profile editing use case (dfac6ca). Next, focusing on refining the UI sketches for better user experience.
 - Divak, as the team leader, added the recovery of deleted notes and user flexibility with note modes. Continues to provide substantial feedback during our brainstorming sessions and plans to enhance the note modes feature.
 - Biruk (Scribe) contributed significantly to note creation, image attachment, note organization, visualizing note connections, password reset, and the home button use cases. Next, focus on finalizing note organization and visual connection functionalities.
+- Reviewed and aligned individual contributions. Initiated discussions for the next phase of feature development. Agreed to proofread the requirements.md for submission.
 
 ### 2023-11-06 at 12:00
 - All team members attended the meeting
-- Each team member committed their own use case and proofread the requirements.md in order to submit the directory to canvas
+- Alan Proofread the requirements.md for submission.
+- Mauro Proofread the requirements.md for submission.
+- Divak Proofread the requirements.md for submission.
+- Biruk Proofread the requirements.md for submission.
+- Each team member committed their own use case and proofread the requirements.md in order to submit the directory to Canvas. Mauro reviewed and suggested improvements to Alan's and Biruk's use cases. Divak reviewed Mauro's and Alan's use cases, providing valuable feedback.
+
 
