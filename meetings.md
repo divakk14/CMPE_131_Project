@@ -28,7 +28,7 @@
 - Biruk Proofread the requirements.md for submission.
 - Each team member committed their own use case and proofread the requirements.md in order to submit the directory to Canvas. Mauro reviewed and suggested improvements to Alan's and Biruk's use cases. Divak reviewed Mauro's and Alan's use cases, providing valuable feedback.
 
-### 2023-11-18 at 13:00 - 
+### 2023-11-18 at 13:00 - 14:30 
 - All team members attended the meeting
 - Alan Proofread the requirements.md for submission.
 - Mauro Proofread the requirements.md for submission.
