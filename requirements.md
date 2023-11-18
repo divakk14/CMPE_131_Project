@@ -35,7 +35,9 @@
 2. Cancel account creation
 
 ## Authentication (Alan):
-**Pre-condition:** User must have Gmail connected 
+**Summary:** The user authentication use case primarily focuses on ensuring secure access to the application for existing users. It involves the validation of login credentials and the establishment of a secure session. This process is crucial for maintaining the confidentiality and integrity of user data, as only authenticated users should be granted access to their personalized content and features within the application.
+**Pre-condition:** User must have Gmail connected.
+
 
 **Trigger:** User enters email and password on the login page and clicks login
 
@@ -187,7 +189,9 @@
 
 
 ## Home Button (Biruk)
-**Precondition:** User has one of the notes opened 
+**Summary:** The home button will be accessible from wherever they are in the application. When the user is done modifying, reviewing a note, or interacting with a different page they might need to return to the main (home) page to access other notes, folders, or buttons. The home button will redirect them to the initial page (home page) allowing the user to navigate elsewhere or to log out.
+
+**Precondition:** User has one of the notes opened. 
 
 **Trigger:** User clicks the home button
 
