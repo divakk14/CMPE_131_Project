@@ -30,8 +30,9 @@
 
 ### 2023-11-18 at 13:00 - 14:30 
 - All team members attended the meeting
-- Alan Proofread the requirements.md for submission.
-- Mauro Proofread the requirements.md for submission.
-- Divak Proofread the requirements.md for submission.
-- Biruk Proofread the requirements.md for submission.
-- Each team member committed their own use case and proofread the requirements.md in order to submit the directory to Canvas. Mauro reviewed and suggested improvements to Alan's and Biruk's use cases. Divak reviewed Mauro's and Alan's use cases, providing valuable feedback.
+- Alan edited the requirements.md for chek in.
+- Mauro edited the requirements.md for check in.
+- Divak edited the requirements.md for check in.
+- Biruk edited the requirements.md for check in.
+- Each team member colaborated to fix the use cases and requirements that were previously unclear by adding summaries and altering requirements that previously needed revision.
+- Each memeber contributed to designing the UI for differnt pages that were previously unaccounted for.  
