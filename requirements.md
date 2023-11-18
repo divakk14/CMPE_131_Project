@@ -15,8 +15,8 @@
 14. **User profile editing:** Allows the user to edit the information in their profile after registration 
 
 # Non-functional requirements: (Divak) 
-1. When the particular note is opened there should be a label or tag of the folder if the note belongs to any of the folders.
-2. The title of the notes should be bold.  
+1. Automatic labeling: When a particular note is opened there should be a label or tag automatically associating the note to a folder if it belongs to any of the folders. It's an automatic function where the user doesn't interact. 
+2. User interface consistency: The user interface is consistent throughout all pages meaning all the pages will have a uniform layout structure, color schemes, and font styles. Example: Titles of all the notes will have font bigger than the body.  
 
 ## Registration (Divak):
 **Pre-condition:** The user doesn’t have any prior account on this website
