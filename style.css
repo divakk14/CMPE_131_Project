@@ -1,0 +1,66 @@
+/* CSS for styling the document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* CSS for styling the registration form */
+form {
+    background: #848b84;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Added property to center-align form content */
+}
+
+/* CSS for styling input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="password"]:not(:last-child) {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 4px;
+}
+
+input[type="password"] {
+    position: relative;
+}
+
+/* CSS for styling eye icon */
+/* .eye-icon {
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+} */
+
+/* CSS for styling the submit button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;    
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

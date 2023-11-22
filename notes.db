@@ -1,0 +1,2 @@
+app.config['SQLAlchemy_DATABASE_URI] = 'sqlite:
+db = SQLAlchemy(app)
