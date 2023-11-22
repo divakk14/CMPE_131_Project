@@ -36,3 +36,15 @@
 - Biruk edited the requirements.md for check in.
 - Each team member colaborated to fix the use cases and requirements that were previously unclear by adding summaries and altering requirements that previously needed revision.
 - Each memeber contributed to designing the UI for differnt pages that were previously unaccounted for.  
+
+### 2023-11-21 at 11:30
+- All team members attended the meeting
+- Alan edited the requirements.md for chek in.
+- Mauro edited the requirements.md for check in.
+- Divak edited the requirements.md for check in.
+- Biruk edited the requirements.md for check in.
+
+  finish editing requirements
+  each memeber submits token for milestone 1 revision
+  Start figuring out implementation
+  
