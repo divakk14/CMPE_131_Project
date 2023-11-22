@@ -19,11 +19,23 @@ form {
 }
 
 /* CSS for styling input fields */
-input[type="text"],
+/* input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="password"]:not(:last-child) {
     width: calc(100% - 24px);
+    padding: 10px;
+    margin: 20px 0;        revert back 
+    border: 1px solid #ddd;
+    
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 4px;
+} */
+
+input[type="password"],
+input[type="password"]:not(:last-child) {
+    width: calc(100% - 45px);
     padding: 10px;
     margin: 20px 0;
     border: 1px solid #ddd;
@@ -32,6 +44,34 @@ input[type="password"]:not(:last-child) {
     position: relative;
     border-radius: 4px;
 }
+
+
+input[type="text"],
+input[type="email"],
+input[type="email"]:not(:last-child) {
+    width: 200;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 input[type="password"] {
     position: relative;
@@ -51,7 +91,7 @@ button {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 20px;  
     text-align: center;
     text-decoration: none;
     display: inline-block;
