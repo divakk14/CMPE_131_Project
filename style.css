@@ -1,5 +1,9 @@
 /* CSS for styling the document */
 body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
