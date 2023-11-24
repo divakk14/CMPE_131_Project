@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="edit-profile.css"> <!-- You can create a separate CSS file for edit-profile if needed -->
+    <link rel="stylesheet" href="edit-profile.css"> 
     <style>
         /* Add any specific styles for the edit-profile page */
     </style>
@@ -14,7 +14,16 @@
         <h1>Edit Profile</h1>
     </header>
     <main>
-        <!-- Add content specific to the edit-profile page -->
+        <form>
+            <h2>Change Username</h2>
+            <label for="newUsername">New Username:</label>
+            <input type="text" id="newUsername" name="newUsername" placeholder="Enter your new username" required>
+
+            <!-- Add more input fields for other profile information if needed -->
+
+            <button type="submit">Save Changes</button>
+            <button type="button" class="cancel">Cancel</button>
+        </form>
     </main>
 </body>
 </html>
