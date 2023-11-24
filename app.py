@@ -36,8 +36,18 @@ def trash():
 
 @app.route('/logout')
 def logout():
-    # Add logic for handling the logout route
-    return redirect(url_for('index'))  # Redirect to the index route after logout
+    # Perform logout logic (clear session, etc.)
+    # ...
+
+    # Redirect to the logout page
+    return redirect(url_for('logout_page'))
+
+@app.route('/logout-page')
+def logout_page():
+    return render_template('logout.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 @app.route('/edit_profile')
 def edit_profile():
