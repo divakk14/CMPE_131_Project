@@ -28,8 +28,26 @@ if __name__ == '__main__':
     app.run(debug=True)
     db.create_all()
     app.run(debug=True)
-    
-    
+
+@app.route('/trash')
+def trash():
+    # Add logic for handling the trash route
+    return render_template('trash.html')  # Replace 'trash.html' with the appropriate template
+
+@app.route('/logout')
+def logout():
+    # Add logic for handling the logout route
+    return redirect(url_for('index'))  # Redirect to the index route after logout
+
+@app.route('/edit_profile')
+def edit_profile():
+    # Add logic for handling the edit profile route
+    return render_template('edit_profile.html')  # Replace 'edit_profile.html' with the appropriate template
+
+# ... (your existing routes)
+
+if __name__ == '__main__':
+    app.run(debug=True)  
     
 
 

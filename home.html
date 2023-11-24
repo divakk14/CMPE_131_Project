@@ -19,9 +19,9 @@
     <header>
         <button class="home-button">Home</button>
         <div class="action-button">
-            <button>Trash Folder</button>
-            <button>Logout</button>
-            <button>Edit Profile</button>
+            <a href="{{ url_for('trash') }}"><button>Trash Folder</button></a>
+            <a href="{{ url_for('logout') }}"><button>Logout</button></a>
+            <a href="{{ url_for('edit_profile') }}"><button>Edit Profile</button></a>
         </div>
     </header>
     <main>
@@ -44,5 +44,23 @@
         </div>
     </main>
     <button class="create-note-button">Create New Note</button>
+</body>
+</html>
+    <script>
+        function trashFolder() {
+            // Add functionality for the "Trash Folder" button
+            alert("Moved selected items to the trash folder.");
+        }
+
+        function logout() {
+            // Add functionality for the "Logout" button
+            alert("Logged out successfully.");
+        }
+
+        function editProfile() {
+            // Add functionality for the "Edit Profile" button
+            alert("Redirecting to the profile editing page.");
+        }
+    </script>
 </body>
 </html>
