@@ -21,7 +21,7 @@ header {
 }
 
 .action-button {
-    display: flex;
+    display: row;
 }
 
 .action-button button {

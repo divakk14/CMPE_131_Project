@@ -15,7 +15,7 @@ body {
 
 /* CSS for styling the registration form */
 form {
-    background: #848b84;
+    /* background: #848b84; */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
