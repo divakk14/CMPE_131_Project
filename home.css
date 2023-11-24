@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: #968ff6;
 }
 
 .home-button {
@@ -42,7 +42,7 @@ main {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #97b2cf;
     color: #fff;
     border: none;
     cursor: pointer;
