@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6da27f;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logout-container {
+    background-color: #6da27f;
+    box-shadow: 0 0 10px rgba(165, 246, 157, 0.309);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto; /* Center the logout container */
+}
+
+.logout-container h2 {
+    color: #ffffff;
+}
+
+.logout-container p {
+    color: #e6e6e6;
+}
+
+/* You can customize other styles based on your design preferences */

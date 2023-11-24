@@ -18,12 +18,37 @@
 <body>
     <header>
         <button class="home-button">Home</button>
+        <button class="options-button" onclick="toggleActionButtons()">Options</button>
         <div class="action-button">
-            <a href="{{ url_for('trash') }}"><button>Trash Folder</button></a>
-            <a href="{{ url_for('logout') }}"><button>Logout</button></a>
-            <a href="{{ url_for('edit_profile') }}"><button>Edit Profile</button></a>
+            <button onclick="redirectTo('trash')">Trash Folder</button>
+            <button onclick="redirectTo('logout')">Logout</button>
+            <button onclick="redirectTo('edit-profile')">Edit Profile</button>
         </div>
     </header>
+</main>
+<script>
+    function toggleActionButtons() {
+        var actionButtons = document.getElementById("actionButtons");
+        if (actionButtons.style.display === "none") {
+            actionButtons.style.display = "block";
+        } else {
+            actionButtons.style.display = "none";
+        }
+    }
+
+    function redirectTo(page) {
+        // Handle redirection based on the selected option
+        if (page === 'trash') {
+            window.location.href = 'trash.html'; // Adjust the URL accordingly
+        } else if (page === 'logout') {
+            window.location.href = 'logout.html'; // Adjust the URL accordingly
+        } else if (page === 'edit-profile') {
+            window.location.href = 'edit-profile.html'; // Adjust the URL accordingly
+        }
+    }
+</script>
+</body>
+</html>
     <main>
         <div class="notes-list">
             <h2>Existing Notes:</h2>
