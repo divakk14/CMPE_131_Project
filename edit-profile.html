@@ -11,15 +11,15 @@
         <h1>Edit Profile</h1>
     </header>
     <main>
-        <form>
+        <form enctype="multipart/form-data">
             <h2>Change Email</h2>
             <label for="newEmail">New Email:</label>
             <input type="email" id="newEmail" name="newEmail" placeholder="Enter your new email" required>
 
             <h2>Change Profile Picture</h2>
-            <label for="newProfilePicture">New Profile Picture URL:</label>
-            <input type="text" id="newProfilePicture" name="newProfilePicture" placeholder="Enter the URL for your new profile picture">
-
+            <label for="newProfilePicture">Select New Profile Picture:</label>
+            <input type="file" id="newProfilePicture" name="newProfilePicture" accept=".jpg, .jpeg" required>
+            
             <h2>Change Email</h2>
             <label for="newEmail">New Email:</label>
             <input type="text" id="newEmail" name="newEmail" placeholder="Enter your new email" required>
