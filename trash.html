@@ -3,18 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="trash.css"> <!-- You can create a separate CSS file for trash if needed -->
-    <style>
-        /* Add any specific styles for the trash page */
-    </style>
+    <link rel="stylesheet" href="trash.css">
     <title>Trash Folder - Notes App</title>
 </head>
 <body>
     <header>
         <h1>Trash Folder</h1>
     </header>
-    <main>
-        <!-- Add content specific to the trash page -->
+    <main id="trashNotes">
+        <!-- Note items will be dynamically added here -->
     </main>
+    <script>
+        // Sample data for demonstration purposes
+        var deletedNotes = [
+            { id: 1, title: 'Deleted Note 1', content: 'Lorem ipsum dolor sit amet.' },
+            { id: 2, title: 'Deleted Note 2', content: 'Consectetur adipiscing elit.' },
+            // Add more deleted notes as needed
+        ];
+
+        // Function to dynamically create note elements
+        function createNoteElement(note) {
+            var noteElement = document.createElement('div');
+            noteElement.className = 'note';
+            noteElement.innerHTML = `
+                <h2>${note.title}</h2>
+                <p>${note.content}</p>
+                <button onclick="recoverNote(${note.id})">Recover</button>
+            `;
+            return noteElement;
+        }
+
+        // Function to populate the trashNotes container
+        function populateTrashNotes() {
+            var trashNotesContainer = document.getElementById('trashNotes');
+            deletedNotes.forEach(function (note) {
+                trashNotesContainer.appendChild(createNoteElement(note));
+            });
+        }
+
+        // Function to recover a note (for demonstration purposes)
+        function recoverNote(noteId) {
+            // Implement logic to recover the note
+            alert(`Recovering note with ID ${noteId}`);
+        }
+
+        // Populate the trashNotes container on page load
+        window.onload = populateTrashNotes;
+    </script>
 </body>
 </html>
