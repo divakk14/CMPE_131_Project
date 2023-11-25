@@ -15,7 +15,7 @@ body {
     border-radius: 10px;
     width: 300px;
     text-align: center;
-    margin: 0 auto; /* Center the logout container */
+    margin: 0 auto; 
 }
 
 .logout-container h2 {
@@ -26,4 +26,4 @@ body {
     color: #e6e6e6;
 }
 
-/* You can customize other styles based on your design preferences */
+

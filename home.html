@@ -31,6 +31,11 @@
             text-align: left;
             cursor: pointer;
         }
+
+        body.dark-mode {
+            background-color: #121212;
+            color: #ffffff;
+        }
     </style>
     <title>Notes App</title>
 </head>
@@ -43,6 +48,8 @@
                 <button onclick="redirectTo('trash')">Trash Folder</button>
                 <button onclick="redirectTo('logout')">Logout</button>
                 <button onclick="redirectTo('edit-profile')">Edit Profile</button>
+                <!-- Add the dark mode button -->
+                <button onclick="toggleDarkMode()">Dark Mode</button>
             </div>
         </div>
     </header>
@@ -54,7 +61,6 @@
                 <li>Note 1</li>
                 <li>Note 2</li>
                 <li>Note 3</li>
-                
             </ul>
         </div>
         <div class="folder-list">
@@ -62,14 +68,11 @@
             <ul>
                 <li>School</li>
                 <li>Work</li>
-                
             </ul>
         </div>
     </main>
     <button class="create-note-button" 
     onclick="window.location.href='newNote.html'">New Note</button>
-</body>
-</html>
 
     <script>
         function toggleActionButtons() {
@@ -80,12 +83,17 @@
         function redirectTo(page) {
             // Handle redirection based on the selected option
             if (page === 'trash') {
-                window.location.href = 'trash.html'; // Adjust the URL accordingly
+                window.location.href = 'trash.html'; 
             } else if (page === 'logout') {
-                window.location.href = 'logout.html'; // Adjust the URL accordingly
+                window.location.href = 'logout.html'; 
             } else if (page === 'edit-profile') {
-                window.location.href = 'edit-profile.html'; // Adjust the URL accordingly
+                window.location.href = 'edit-profile.html';
             }
+        }
+
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
         }
     </script>
 </body>
