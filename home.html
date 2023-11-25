@@ -40,9 +40,10 @@
         <div class="options-container">
             <button class="options-button" onclick="toggleActionButtons()">Options</button>
             <div class="action-button" id="actionButtons">
-                <button onclick="redirectTo('trash')">Trash Folder</button>
-                <button onclick="redirectTo('logout')">Logout</button>
+                <button onclick="redirectTo('trash')">Trash</button>
+                <button onclick="redirectTo('view-by')">View</button>
                 <button onclick="redirectTo('edit-profile')">Edit Profile</button>
+                <button onclick="redirectTo('logout')">Logout</button>
             </div>
         </div>
     </header>
@@ -85,6 +86,9 @@
                 window.location.href = 'logout.html'; // Adjust the URL accordingly
             } else if (page === 'edit-profile') {
                 window.location.href = 'edit-profile.html'; // Adjust the URL accordingly
+            }
+            else if (page === 'view-by') {
+                window.location.href = 'view-by.html'; // Adjust the URL accordingly
             }
         }
     </script>
