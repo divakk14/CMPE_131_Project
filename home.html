@@ -12,43 +12,41 @@
             display: flex;
             justify-content: center;
         }
+
+        .action-button {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            flex-direction: column;
+        }
+        .action-button button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #ffffff;
+            color: #4caf50;
+            text-align: left;
+            cursor: pointer;
+        }
     </style>
     <title>Notes App</title>
 </head>
 <body>
     <header>
         <button class="home-button">Home</button>
-        <button class="options-button" onclick="toggleActionButtons()">Options</button>
-        <div class="action-button">
-            <button onclick="redirectTo('trash')">Trash Folder</button>
-            <button onclick="redirectTo('logout')">Logout</button>
-            <button onclick="redirectTo('edit-profile')">Edit Profile</button>
+        <div class="options-container">
+            <button class="options-button" onclick="toggleActionButtons()">Options</button>
+            <div class="action-button" id="actionButtons">
+                <button onclick="redirectTo('trash')">Trash Folder</button>
+                <button onclick="redirectTo('logout')">Logout</button>
+                <button onclick="redirectTo('edit-profile')">Edit Profile</button>
+            </div>
         </div>
     </header>
-</main>
-<script>
-    function toggleActionButtons() {
-        var actionButtons = document.getElementById("actionButtons");
-        if (actionButtons.style.display === "none") {
-            actionButtons.style.display = "block";
-        } else {
-            actionButtons.style.display = "none";
-        }
-    }
 
-    function redirectTo(page) {
-        // Handle redirection based on the selected option
-        if (page === 'trash') {
-            window.location.href = 'trash.html'; // Adjust the URL accordingly
-        } else if (page === 'logout') {
-            window.location.href = 'logout.html'; // Adjust the URL accordingly
-        } else if (page === 'edit-profile') {
-            window.location.href = 'edit-profile.html'; // Adjust the URL accordingly
-        }
-    }
-</script>
-</body>
-</html>
     <main>
         <div class="notes-list">
             <h2>Existing Notes:</h2>
@@ -56,7 +54,7 @@
                 <li>Note 1</li>
                 <li>Note 2</li>
                 <li>Note 3</li>
-                <!-- Add more notes as needed -->
+                
             </ul>
         </div>
         <div class="folder-list">
@@ -64,28 +62,27 @@
             <ul>
                 <li>School</li>
                 <li>Work</li>
-                <!-- Add more folders as needed -->
+                
             </ul>
         </div>
     </main>
-    <button class="create-note-button" 
-    onclick="window.location.href='newNote.html'">New Note</button>
-</body>
-</html>
+    <button class="create-note-button">Create New Note</button>
+
     <script>
-        function trashFolder() {
-            // Add functionality for the "Trash Folder" button
-            alert("Moved selected items to the trash folder.");
+        function toggleActionButtons() {
+            var actionButtons = document.getElementById("actionButtons");
+            actionButtons.style.display = actionButtons.style.display === "none" ? "flex" : "none";
         }
 
-        function logout() {
-            // Add functionality for the "Logout" button
-            alert("Logged out successfully.");
-        }
-
-        function editProfile() {
-            // Add functionality for the "Edit Profile" button
-            alert("Redirecting to the profile editing page.");
+        function redirectTo(page) {
+            // Handle redirection based on the selected option
+            if (page === 'trash') {
+                window.location.href = 'trash.html'; // Adjust the URL accordingly
+            } else if (page === 'logout') {
+                window.location.href = 'logout.html'; // Adjust the URL accordingly
+            } else if (page === 'edit-profile') {
+                window.location.href = 'edit-profile.html'; // Adjust the URL accordingly
+            }
         }
     </script>
 </body>

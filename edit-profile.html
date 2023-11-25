@@ -12,10 +12,18 @@
     </header>
     <main>
         <form>
+            <h2>Change Email</h2>
+            <label for="newEmail">New Email:</label>
+            <input type="email" id="newEmail" name="newEmail" placeholder="Enter your new email" required>
+
+            <h2>Change Profile Picture</h2>
+            <label for="newProfilePicture">New Profile Picture URL:</label>
+            <input type="text" id="newProfilePicture" name="newProfilePicture" placeholder="Enter the URL for your new profile picture">
+
+            <!-- Keep the existing username change input -->
             <h2>Change Username</h2>
             <label for="newUsername">New Username:</label>
             <input type="text" id="newUsername" name="newUsername" placeholder="Enter your new username" required>
-
 
             <button type="submit">Save Changes</button>
             <button type="button" class="cancel">Cancel</button>
