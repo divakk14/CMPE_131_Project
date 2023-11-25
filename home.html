@@ -45,11 +45,15 @@
         <div class="options-container">
             <button class="options-button" onclick="toggleActionButtons()">Options</button>
             <div class="action-button" id="actionButtons">
-                <button onclick="redirectTo('trash')">Trash Folder</button>
-                <button onclick="redirectTo('logout')">Logout</button>
+                <button onclick="redirectTo('trash')">Trash</button>
+                <button onclick="redirectTo('view-by')">View</button>
                 <button onclick="redirectTo('edit-profile')">Edit Profile</button>
+<<<<<<< HEAD
                 <!-- Add the dark mode button -->
                 <button onclick="toggleDarkMode()">Dark Mode</button>
+=======
+                <button onclick="redirectTo('logout')">Logout</button>
+>>>>>>> b089a7e592cb509408ddc330833458aa0aaafa5b
             </div>
         </div>
     </header>
@@ -88,6 +92,9 @@
                 window.location.href = 'logout.html'; 
             } else if (page === 'edit-profile') {
                 window.location.href = 'edit-profile.html';
+            }
+            else if (page === 'view-by') {
+                window.location.href = 'view-by.html'; // Adjust the URL accordingly
             }
         }
 
