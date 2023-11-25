@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="view-by.css">
-    <title>Mode & View</title>
+    <title>Aesthetic Preference </title>
 </head>
 <body>
     <header>
-        <h1>Mode & View</h1>
+        <h1>Aesthetic Preference</h1>
     </header>
 
     <main>
@@ -21,5 +21,13 @@
             <button class="view-button" onclick="toggleView('list')">List</button>
         </section>
     </main>
+    
+    <script>
+        function toggleMode() {
+            var body = document.body;
+            body.classList.toggle("Dark");
+        }
+    </script>
 </body>
+
 </html>
