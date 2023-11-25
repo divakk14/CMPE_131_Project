@@ -3,61 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="trash.css"> 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        header {
-            background-color: #343a40;
-            color: #ffffff;
-            padding: 1rem;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        .note-list {
-            list-style: none;
-            padding: 0;
-            text-align: left;
-        }
-
-        .note-item {
-            background-color: #ffffff;
-            border: 1px solid #dee2e6;
-            border-radius: 5px;
-            margin: 10px 0;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .note-actions {
-            display: flex;
-            gap: 10px;
-        }
-
-        .restore-button,
-        .delete-button {
-            background-color: #007bff;
-            color: #ffffff;
-            border: none;
-            padding: 8px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="trash.css">
     <title>Trash Folder - Notes App</title>
 </head>
 <body>
@@ -65,28 +11,7 @@
         <h1>Trash Folder</h1>
     </header>
     <main>
-        <ul class="note-list">
-         
-            <li class="note-item">
-                <span>Trashed Note 1</span>
-                <div class="note-actions">
-                    <button class="restore-button" onclick="restoreNote()">Restore</button>
-                    <button class="delete-button" onclick="deleteNotePermanently()">Delete</button>
-                </div>
-            </li>
-        </ul>
+        <!-- Add content specific to the trash page -->
     </main>
-
-    <script>
-        function restoreNote() {
-            // Add functionality to restore the trashed note
-            alert("Note restored!");
-        }
-
-        function deleteNotePermanently() {
-            // Add functionality to permanently delete the trashed note
-            alert("Note permanently deleted!");
-        }
-    </script>
 </body>
 </html>
