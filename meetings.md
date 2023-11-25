@@ -44,6 +44,15 @@
 - Divak edited the requirements.md for check in.
 - Biruk edited the requirements.md for check in.
 
+### 2023-11-24 at 10:30 - 11:30
+- All team members attended the meeting
+- We’ve set our coursework for the front end and set up UI 
+- Alan will implement front end code for registration 
+- Mauro will implement front-end code for log-in
+- Divak will figure out database functionality
+- Biruk will implement front-end code for trash and edit functionality 
+- We’ve scheduled our next meeting on 11/24 where will go over the back-end code
+
   finish editing requirements
   each memeber submits token for milestone 1 revision
   Start figuring out implementation
