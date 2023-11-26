@@ -5,26 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="trash.css">
     <title>Trash Folder - Notes App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .note {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #fff;
+        }
+
+        .note h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .note p {
+            color: #555;
+        }
+
+        .note button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Trash Folder</h1>
     </header>
-    <main id="trashNotes">
-        <!-- Note items will be dynamically added here -->
+    <main>
+        <div id="trashNotes">
+        </div>
     </main>
     <script>
-        // Sample data for demonstration purposes
         var deletedNotes = [
-            { id: 1, title: 'Deleted Note 1', content: 'Lorem ipsum dolor sit amet.' },
-            { id: 2, title: 'Deleted Note 2', content: 'Consectetur adipiscing elit.' },
-            // Add more deleted notes as needed
+            { id: 1, title: 'Deleted Note 1', content: 'Deletd content goes here' },
+            { id: 2, title: 'Deleted Note 2', content: 'Deletd content goes here.' },
         ];
 
         // Function to dynamically create note elements
         function createNoteElement(note) {
             var noteElement = document.createElement('div');
-            noteElement.className = 'note';
+            noteElement.classList.add('note');
             noteElement.innerHTML = `
                 <h2>${note.title}</h2>
                 <p>${note.content}</p>
@@ -36,12 +80,9 @@
         // Function to populate the trashNotes container
         function populateTrashNotes() {
             var trashNotesContainer = document.getElementById('trashNotes');
-            deletedNotes.forEach(function (note) {
-                trashNotesContainer.appendChild(createNoteElement(note));
-            });
+            deletedNotes.forEach(note => trashNotesContainer.appendChild(createNoteElement(note)));
         }
 
-        // Function to recover a note (for demonstration purposes)
         function recoverNote(noteId) {
             // Implement logic to recover the note
             alert(`Recovering note with ID ${noteId}`);
