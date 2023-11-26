@@ -17,3 +17,15 @@ main {
     margin: 0 auto;
     padding: 20px;
 }
+
+.home-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: baseline;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
