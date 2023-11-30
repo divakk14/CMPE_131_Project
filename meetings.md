@@ -56,4 +56,12 @@
   finish editing requirements
   each memeber submits token for milestone 1 revision
   Start figuring out implementation
-  
+
+
+### 2023-11-29 at 13:30 - 18:30
+- All team members attended the meeting
+- We’ve reviewed and reorganized our implementation work into folders, added README file, and linked every folder to the app.py file for a smooth transition into the app
+- Alan contributed to the registration and login button implementation 
+- Mauro contributed with the documentation needed for the milestone submission
+- Divak worked as the subject matter expert for the implementation process 
+- Biruk contributed with insights on what the process should be like and implemented his assigned requirements. set up the backend.  
