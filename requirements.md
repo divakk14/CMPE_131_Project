@@ -7,7 +7,7 @@
 6. **Manage notes**
 7. **Search notes:** Allows the user to search for keywords in their collection of notes 
 8. **Note categorization (Visualizing note connections)**
-9. **Home Button:** Allows the user to go back to the homepage once they have navigated elsewhere
+9. **Home Button:** Allows the user to go back to the homepage once they have navigated elsewhere.
 10. **Comment on a particular note**
 11. **User’s flexibility with the mode of the note**
 12. **Recovery of deleted notes:** Allows the user to restore a previously deleted note 
@@ -111,7 +111,7 @@
 ## Note Creation (Biruk)
 **Pre-condition:** The user is logged into the Notes web application
 
-**Trigger:** User chooses to create a new note by clicking the “+” icon  
+**Trigger:** User chooses to create a new note by clicking the “Create a note” button.  
 
 **Primary sequence:**
 1. User navigates to the home page
@@ -169,27 +169,14 @@
 1. The user is no longer interested in searching
 
 
-## Note Organization: Visualize note connections (Biruk)
-**Pre-condition:** The user is logged into the notes website and is on the home page.
-
-**Trigger:** User selects the notes they want to perform an action on (move or delete)   
-
-**Primary sequence:**
-1. The user will select the notes.
-2. The user will right-click after the preferred notes are selected.
-3. The user will select to either move or delete the selected notes.
-4. The user's preferred action will be performed. 
-7. The system will save notes to a specified folder or delete them
-
-**Primary postconditions:** The selected notes are either moved to the particular folder or deleted.    
 
 **Alternate sequence:**
    
    1. The user deselects all notes except one and can edit, move, or delete 
 
 
-## Home Button (Biruk)
-**Summary:** The home button will be accessible from wherever they are in the application. When the user is done modifying, reviewing a note, or interacting with a different page they might need to return to the main (home) page to access other notes, folders, or buttons. The home button will redirect them to the initial page (home page) allowing the user to navigate elsewhere or to log out.
+## Home Button (Divak)
+**Summary:** The home button will be accessible from wherever they are in the application. It is used when the user is creating a note and wants to exit back to the home page, it will redirect them to home. When the user is navigating different interlinked pages and they directly want to access their home page they can hit the Home button instead of pressing back numerous times. 
 
 **Precondition:** User has one of the notes opened. 
 
@@ -262,11 +249,10 @@
 
 3. The user permanently loses their note. 
 
-
 ## Sorting Notes: (Alan)
 **Pre-condition:** There already exists a note. 
 
-**Trigger:** When more than one note is in the system the notes list is sorted according to the time stamp.  
+**Trigger:** When more than one note is in the system the notes list is sorted according to the time stamp meaning oldest on top and newest on bottom of the list. 
 
 **Primary sequence:**
 1. There is a pre-existing note in the user's account.
