@@ -54,7 +54,7 @@
 - We’ve scheduled our next meeting on 11/24 where will go over the back-end code
 
   finish editing requirements
-  each memeber submits token for milestone 1 revision
+  each member submits token for milestone 1 revision
   Start figuring out implementation
 
 
@@ -65,3 +65,11 @@
 - Mauro contributed with the documentation needed for the milestone submission
 - Divak worked as the subject matter expert for the implementation process 
 - Biruk contributed with insights on what the process should be like and implemented his assigned requirements. set up the backend.  
+
+
+### 2023-12-07 at 12:00 - 18:30
+- Divak and Alan attended the meeting.
+- We fixed the requirements.md, we uploaded website screenshots to the readme.md.
+- We added links to the resources we used during the implementation of the project.
+- password hashing implemented.
+- We tested the code by creating a note, deleting a note, and permanently deleting it from the delete folder.
