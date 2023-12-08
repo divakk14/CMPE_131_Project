@@ -23,6 +23,6 @@ Permanently delete note page ![Screenshot 2023-12-07 at 6 04 38 PM](https://gi
 
 ## Resources ## 
 
-ChatGPT 4.0
-Stackoverflow
-https://www.youtube.com/watch?v=GQcM8wdduLI
+**ChatGPT 4.0**
+**Stackoverflow**
+**https://www.youtube.com/watch?v=GQcM8wdduLI**
