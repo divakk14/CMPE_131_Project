@@ -12,8 +12,9 @@
 
 
 ## Website pages: 
+Sign up page![Screenshot 2023-12-07 at 6 09 31 PM](https://github.com/divakk14/CMPE_131_Project/assets/90079924/5b43fb29-e5e8-4ad9-ba05-181455eaa9ef)
 
-Login-page![Screenshot 2023-12-07 at 5 55 04 PM](https://github.com/divakk14/CMPE_131_Project/assets/90079924/80c2cd9f-b4cf-4c14-a98c-737badf49bfa)
+Login-page ![Screenshot 2023-12-07 at 5 55 04 PM](https://github.com/divakk14/CMPE_131_Project/assets/90079924/80c2cd9f-b4cf-4c14-a98c-737badf49bfa)
 
 Home-page ![Screenshot 2023-12-07 at 6 01 36 PM](https://github.com/divakk14/CMPE_131_Project/assets/90079924/e93b8480-4cb9-453d-ac13-b73abedc377a)
 
