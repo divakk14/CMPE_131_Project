@@ -4,7 +4,7 @@
 - Alan Nguyen (@nguyenalan422)
 - Mauro Gonzalez (@mauroandresgb)
 
-  ## Instructions to run the project:
+  ## Instructions to run the project ##
   1- cd to project
   2- source venv/bin/activate
   3- ls
