@@ -5,10 +5,11 @@
 - Mauro Gonzalez (@mauroandresgb)
 
   ## Instructions to run the project ##
-  1- cd to project
-  2- source venv/bin/activate
-  3- ls
-  4- python3 app.py
+1. **cd to project**
+2. **source venv/bin/activate**
+3. **pip install -r requirements.txt** 
+4. **python3 app.py** 
+
 
 ## Website pages: 
 
